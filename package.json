@@ -1,0 +1,19 @@
+{
+  "name": "calorie-and-cookbook",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "test": "pnpm -r --if-present test",
+    "test:domain": "pnpm --filter @cac/domain test",
+    "test:schemas": "pnpm --filter @cac/schemas test",
+    "test:api": "pnpm --filter @cac/api test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "pnpm -r --if-present lint",
+    "dev:api": "pnpm --filter @cac/api dev",
+    "dev:mobile": "pnpm --filter @cac/mobile start"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}

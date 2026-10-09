@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.expo/
+.turbo/
+coverage/
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.DS_Store
+*.log
+web-build/
+android/
+ios/
+.idea/
+.vscode/
