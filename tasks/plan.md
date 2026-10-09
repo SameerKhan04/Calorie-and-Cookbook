@@ -15,24 +15,24 @@ Expo (Android + web) + Hono API + shared Zod/domain packages. V1 ships the diary
 ## Task List
 
 ### Phase 0: Foundation
-- [ ] Task 1: Monorepo scaffold + Vitest + CI scripts
-- [ ] Task 2: Design tokens + app shell stubs
-- [ ] Task 3: Shared Zod schemas + SQL migration stubs + RLS notes
-- [ ] Task 4–5: Auth middleware contract + API hardening (health, headers, rate-limit stub)
+- [x] Task 1: Monorepo scaffold + Vitest + CI scripts
+- [x] Task 2: Design tokens + app shell stubs
+- [x] Task 3: Shared Zod schemas + SQL migration stubs + RLS notes
+- [x] Task 4–5: Auth middleware contract + API hardening (health, headers, rate-limit stub)
 
 ### Checkpoint 0
-- [ ] Tests pass, types check, unauthenticated diary routes rejected
+- [x] Tests pass, types check, unauthenticated diary routes rejected
 
 ### Phase 1: V1 Diary
-- [ ] Task 6: Onboarding + profile schemas/API
-- [ ] Task 7: TDEE/macro suggestion + manual override (domain)
-- [ ] Task 8: Food search (custom + OFF with timeout fallback)
-- [ ] Task 9: Barcode → lookup → confirm → diary
-- [ ] Task 10: Custom food + bookmarks/recents + remaining macros
-- [ ] Task 11: Today UI states + offline/delete + offline queue
+- [x] Task 6: Onboarding + profile schemas/API
+- [x] Task 7: TDEE/macro suggestion + manual override (domain)
+- [x] Task 8: Food search (custom + OFF with timeout fallback)
+- [x] Task 9: Barcode → lookup → confirm → diary
+- [x] Task 10: Custom food + bookmarks/recents + remaining macros
+- [x] Task 11: Today UI states + edit/delete + offline queue
 
 ### Checkpoint 1 — V1 ship
-- [ ] User can onboard, log food (search/barcode/custom), see remaining energy, bookmark, change targets; offline queue works
+- [x] User can onboard, log food (search/barcode/custom), see remaining energy, bookmark, change targets; offline queue works
 
 ## Risks
 - Free OFF outages → cache + custom food fallback
